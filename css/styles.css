@@ -98,3 +98,33 @@ html, body {
   margin: 15px;
   border-radius: 50%;
 }
+
+/* FOOTER */
+.main-footer {
+  background-color: #714288; /* a nice hue of dark-ish purple*/
+  color: white;
+  padding-left: .25em 0;
+}
+
+.band-name-footer {
+  font-size: 2.5em;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li {
+  padding: 0 .5em;
+}
+
+.footer-nav img {
+  width: 40px;
+  height: 40px;
+}
