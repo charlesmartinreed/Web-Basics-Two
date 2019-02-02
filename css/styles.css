@@ -70,7 +70,7 @@ html, body {
 }
 
 .band-name-large {
-  font-size: 8em;
+  font-size: 7em;
 }
 
 /* SECTION */
@@ -127,4 +127,42 @@ html, body {
 .footer-nav img {
   width: 40px;
   height: 40px;
+}
+
+/* BTNS */
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: .67em;
+  cursor: pointer;
+}
+
+.btn-header {
+  color: white;
+  border: 2px solid #BF81FF;
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 0;
+  font-size: 1em;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.btn-header:hover {
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+  /* margin: 0 auto; */
+  color: #BF81FF;
+  font-size: .5em;
+  border-radius: 50%;
+  /* padding, width and height needed to create circular button */
+  padding: 0;
+  width: 40px;
+  height: 40px;
+}
+
+.btn-container {
+  margin: 0px 25%;
 }
