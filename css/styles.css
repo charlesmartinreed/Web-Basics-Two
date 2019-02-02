@@ -91,3 +91,10 @@ html, body {
   color: #333;
   text-align: center;
 }
+
+.about-band-image {
+  float: left;
+  width: 300px;
+  margin: 15px;
+  border-radius: 50%;
+}
