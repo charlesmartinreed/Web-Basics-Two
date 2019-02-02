@@ -51,6 +51,7 @@ html, body {
   padding: 0 5%; /* 0 top/bottom, 5% left/right */
 }
 
+/* HEADER */
 .main-header {
   background-color: rgba(0, 0, 0, 0.6);
   background-image: url("../images/background.jpg");
@@ -70,4 +71,23 @@ html, body {
 
 .band-name-large {
   font-size: 8em;
+}
+
+/* SECTION */
+.content-section {
+  margin: 1em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.section-header {
+  font-family: 'VT323', monospace;
+  font-weight: normal;
+  font-size: 2.5em;
+  color: #333;
+  text-align: center;
 }
