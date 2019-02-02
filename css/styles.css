@@ -1,3 +1,25 @@
-html {
-  background-color: red;
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+* {
+  /* width of an object takes padding into account */
+  box-sizing: border-box;
+  font-family: 'Major Mono Display', monospace;
+  color: #777; /* light gray */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.main-header {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url("../images/background.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
 }
