@@ -218,7 +218,7 @@ html, body {
   background-color: #AF81FF;
 }
 
-/* SHOP */
+/* SHOP ITEM */
 .shop-items {
   display: flex;
   flex-wrap: wrap;
@@ -252,4 +252,37 @@ html, body {
 .shop-item-price {
   flex-grow: 1;
   color: #333;
+}
+
+/* SHOP CART */
+.cart-header {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cart-row {
+  display: flex;
+}
+
+.cart-item {
+  width: 45%;
+}
+
+.cart-price {
+  width: 20%;
+
+}
+
+.cart-quantity {
+  width: 35%;
 }
